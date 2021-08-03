@@ -1,7 +1,6 @@
 # action 이름. 원하는대로 정하면 된다. 
 name: hugo deploy1
 
-
 # on: 뒤에오는 event가 발생하면 action이 실행된다. 아래는 master branch에 push 나 pull request가 발생하면 action이 실행되는 코드이다. 보통 그냥 두면 된다. 
 on:
   push:
