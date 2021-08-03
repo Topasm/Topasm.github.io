@@ -1,4 +1,4 @@
-baseURL = "https://Topasm.github.io/"
+baseURL = "https://blog.topasm.me/"
 title = "Topasm_log"
 paginate = 5
 theme = "PaperMod"
