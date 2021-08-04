@@ -1,5 +1,5 @@
 baseURL = "https://blog.topasm.me/"
-title = "Topasm_log"
+title = "Topasm_blog"
 paginate = 5
 theme = "PaperMod"
 enableRobotsTXT = true
@@ -12,10 +12,99 @@ googleAnalytics = "UA-123-45"
 disableXML = true
 minifyOutput = true
 
+[languages.en]
+languageName = "English"
+weight = 1
+
+[[languages.en.menu.main]]
+name = "Archive"
+url = "archives"
+weight = 5
+
+[[languages.en.menu.main]]
+name = "Search"
+url = "search/"
+weight = 10
+
+[[languages.en.menu.main]]
+name = "Tags"
+url = "tags/"
+weight = 10
+
+[[languages.en.menu.main]]
+name = "Categories"
+url = "categories/"
+weight = 10
+
+[languages.ko]
+languageName = ":ko:"
+languageAltTitle = "koench"
+weight = 2
+title = "PaperModL2"
+
+  [languages.ko.profileMode]
+  enabled = true
+  title = "PaperMod"
+  subtitle = "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
+
+    [[languages.ko.profileMode.buttons]]
+    name = "Blog"
+    url = "posts"
+
+    [[languages.ko.profileMode.buttons]]
+    name = "Tags"
+    url = "tags"
+
+[[languages.ko.menu.main]]
+name = "Archive"
+url = "archives/"
+weight = 5
+
+[[languages.ko.menu.main]]
+name = "Tags"
+url = "tags"
+weight = 10
+
+[[languages.ko.menu.main]]
+name = "Categories"
+url = "categories"
+weight = 10
+
+[[languages.ko.menu.main]]
+name = "Series"
+url = "series"
+weight = 10
+
+[[languages.ko.menu.main]]
+name = "NullLink"
+url = "#"
+
+[[languages.ko.menu.main]]
+name = "NullLink2"
+url = "#"
+
+[[languages.ko.menu.main]]
+name = "NullLink3"
+url = "#"
+
+[languages.fa]
+languagedirection = "rtl"
+weight = 3
+title = "PaperMod RTL"
+
+  [languages.fa.homeInfoParams]
+  Title = "안녕하세요 👋"
+  Content = "Welcome to RTL layout"
+
+[[languages.fa.menu.main]]
+name = "Tags"
+url = "tags"
+weight = 10
+
 [params]
 env = "production"
-title = "ExampleSite"
-description = "ExampleSite description"
+title = "topasm_blog"
+description = "personal blog"
 keywords = [ "Blog", "Portfolio", "PaperMod" ]
 author = "Me"
 images = [ "<link or path of image for opengraph, twitter-cards>" ]
