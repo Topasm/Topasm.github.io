@@ -12,94 +12,6 @@ googleAnalytics = "UA-123-45"
 disableXML = true
 minifyOutput = true
 
-[languages.en]
-languageName = "English"
-weight = 1
-
-[[languages.en.menu.main]]
-name = "Archive"
-url = "archives"
-weight = 5
-
-[[languages.en.menu.main]]
-name = "Search"
-url = "search/"
-weight = 10
-
-[[languages.en.menu.main]]
-name = "Tags"
-url = "tags/"
-weight = 10
-
-[[languages.en.menu.main]]
-name = "Categories"
-url = "categories/"
-weight = 10
-
-[languages.ko]
-languageName = ":ko:"
-languageAltTitle = "koench"
-weight = 2
-title = "PaperModL2"
-
-  [languages.ko.profileMode]
-  enabled = true
-  title = "PaperMod"
-  subtitle = "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
-
-    [[languages.ko.profileMode.buttons]]
-    name = "Blog"
-    url = "posts"
-
-    [[languages.ko.profileMode.buttons]]
-    name = "Tags"
-    url = "tags"
-
-[[languages.ko.menu.main]]
-name = "Archive"
-url = "archives/"
-weight = 5
-
-[[languages.ko.menu.main]]
-name = "Tags"
-url = "tags"
-weight = 10
-
-[[languages.ko.menu.main]]
-name = "Categories"
-url = "categories"
-weight = 10
-
-[[languages.ko.menu.main]]
-name = "Series"
-url = "series"
-weight = 10
-
-[[languages.ko.menu.main]]
-name = "NullLink"
-url = "#"
-
-[[languages.ko.menu.main]]
-name = "NullLink2"
-url = "#"
-
-[[languages.ko.menu.main]]
-name = "NullLink3"
-url = "#"
-
-[languages.fa]
-languagedirection = "rtl"
-weight = 3
-title = "PaperMod RTL"
-
-  [languages.fa.homeInfoParams]
-  Title = "안녕하세요 👋"
-  Content = "Welcome to RTL layout"
-
-[[languages.fa.menu.main]]
-name = "Tags"
-url = "tags"
-weight = 10
 
 [params]
 env = "production"
@@ -154,20 +66,13 @@ tocopen = false
     url = "tags"
 
   [params.homeInfoParams]
-  Title = "Hi there 👋"
-  Content = "Welcome to my blog"
+  Title = "안녕하세요 👋"
+  Content = "안녕하세요"
 
-  [[params.socialIcons]]
-  name = "twitter"
-  url = "https://twitter.com/"
-
-  [[params.socialIcons]]
-  name = "stackoverflow"
-  url = "https://stackoverflow.com"
 
   [[params.socialIcons]]
   name = "github"
-  url = "https://github.com/"
+  url = "https://github.com/Topasm"
 
 [params.analytics.google]
 SiteVerificationTag = "XYZabc"
@@ -197,20 +102,24 @@ SiteVerificationTag = "XYZabc"
   minMatchCharLength = 0
   keys = [ "title", "permalink", "summary", "content" ]
 
+
+
 [[menu.main]]
-identifier = "categories"
-name = "categories"
-url = "/categories/"
+name = "Archive"
+url = "archives"
+weight = 5
+
+[[menu.main]]
+name = "Search"
+url = "search/"
 weight = 10
 
 [[menu.main]]
-identifier = "tags"
-name = "tags"
-url = "/tags/"
-weight = 20
+name = "Tags"
+url = "tags/"
+weight = 10
 
 [[menu.main]]
-identifier = "example"
-name = "example.org"
-url = "https://example.org"
-weight = 30
+name = "Categories"
+url = "categories/"
+weight = 10
