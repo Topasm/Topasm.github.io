@@ -41,7 +41,7 @@ weight = 10
 
 [params]
 env = "production"
-title = "topasm"
+title = "topasm|robotics"
 description = "personal blog"
 author = "Me"
 DateFormat = "January 2, 2006"
@@ -60,17 +60,20 @@ showtoc = true
 tocopen = false
 
 [params.label]
-text = "Topasm"
+text = "Topasm | blog"
 icon = "/Iconrobot.png"
 iconHeight = 35
 
 
 
 [params.homeInfoParams]
-Title = "안녕하세요 👋"
-Content = "안녕하세요"
+Title = "안녕하세요 Hello👋"
+Content = """
+Mechanical engineering Bachelor degree 3nd year | Interest in Robotics
 
+-기계공학과 3학년 학생이며 로봇에 관심이 많습니다.
 
+"""
 [[params.socialIcons]]
 name = "github"
 url = "https://github.com/Topasm"

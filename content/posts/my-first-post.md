@@ -1,7 +1,7 @@
 ---
-title: "My First Post"
+title: "블로그를 개설했습니다"
 date: 2021-08-03T20:41:16+09:00
-draft: true
+draft: false
 ---
 
-hugo bloge test
+여러가지 플랫폼을 돌다가 개인 웹주소를 가질수 있고 다른 플랫폼에 비해 독립적으로 이용할 수 있는 장점 때문에 Github Pages 와 hugo 를 이용해 블로그를 만들었습니다. 
