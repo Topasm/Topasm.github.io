@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Topasm blog</title>
-    <link>https://blog.topasm.me/</link>
-    <description>Recent content on Topasm blog</description>
+    <title>Posts on Topasm blog</title>
+    <link>https://blog.topasm.me/posts/</link>
+    <description>Recent content in Posts on Topasm blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 03 Aug 2021 20:41:16 +0900</lastBuildDate><atom:link href="https://blog.topasm.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Aug 2021 20:41:16 +0900</lastBuildDate><atom:link href="https://blog.topasm.me/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>블로그를 개설했습니다</title>
       <link>https://blog.topasm.me/posts/my-first-post/</link>
@@ -14,8 +14,6 @@
       <guid>https://blog.topasm.me/posts/my-first-post/</guid>
       <description>여러가지 플랫폼을 돌다가 개인 웹주소를 가질수 있고 다른 플랫폼에 비해 독립적으로 이용할 수 있는 장점 때문에 Github Pages 와 hugo 를 이용해 블로그를 만들었습니다.</description>
     </item>
-    
-    
     
   </channel>
 </rss>
