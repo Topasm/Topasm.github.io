@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>hugo on Topasm blog</title>
+    <link>https://blog.topasm.me/categories/hugo/</link>
+    <description>Recent content in hugo on Topasm blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 23 Aug 2021 17:55:29 +0900</lastBuildDate><atom:link href="https://blog.topasm.me/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Second Post</title>
+      <link>https://blog.topasm.me/posts/my-second-post/</link>
+      <pubDate>Mon, 23 Aug 2021 17:55:29 +0900</pubDate>
+      
+      <guid>https://blog.topasm.me/posts/my-second-post/</guid>
+      <description>블로그 테스트 하는 중 2번째 포스트 여전히 개발중</description>
+    </item>
+    
+  </channel>
+</rss>
