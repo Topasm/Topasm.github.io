@@ -3,7 +3,7 @@ title: "마크다운 문법 정리"
 date: 2021-08-24T21:11:13+09:00
 categories: [web]
 tags: [markdown, tips, web]
-draft: true
+draft: false
 ---
 
 
@@ -105,3 +105,13 @@ draft: true
 
 - [x] 체크표시 있음
 - [ ] 체크표시 없음
+
+### youtube
+```
+{{< youtube vZ4Os97-wVQ >}}
+```
+
+https://youtu.be/vZ4Os97-wVQ
+주소 뒷부분의 코드를 따서 붙여넣으면 된다  
+
+{{< youtube vZ4Os97-wVQ >}}
