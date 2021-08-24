@@ -2,14 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.topasm.me/archives/</loc>
-  </url><url>
     <loc>https://blog.topasm.me/categories/</loc>
+    <lastmod>2021-08-24T21:11:13+09:00</lastmod>
   </url><url>
-    <loc>https://blog.topasm.me/search/</loc>
+    <loc>https://blog.topasm.me/tags/markdown/</loc>
+    <lastmod>2021-08-24T21:11:13+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.topasm.me/posts/</loc>
+    <lastmod>2021-08-24T21:11:13+09:00</lastmod>
   </url><url>
     <loc>https://blog.topasm.me/tags/</loc>
+    <lastmod>2021-08-24T21:11:13+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.topasm.me/tags/tips/</loc>
+    <lastmod>2021-08-24T21:11:13+09:00</lastmod>
   </url><url>
     <loc>https://blog.topasm.me/</loc>
+    <lastmod>2021-08-24T21:11:13+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.topasm.me/tags/web/</loc>
+    <lastmod>2021-08-24T21:11:13+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.topasm.me/categories/web/</loc>
+    <lastmod>2021-08-24T21:11:13+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.topasm.me/posts/markdown_grammer/</loc>
+    <lastmod>2021-08-24T21:11:13+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.topasm.me/archives/</loc>
+  </url><url>
+    <loc>https://blog.topasm.me/search/</loc>
   </url>
 </urlset>
