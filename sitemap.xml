@@ -2,35 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.topasm.me/tags/blog/</loc>
-    <lastmod>2021-08-23T17:55:29+09:00</lastmod>
-  </url><url>
-    <loc>https://blog.topasm.me/categories/</loc>
-    <lastmod>2021-08-23T17:55:29+09:00</lastmod>
-  </url><url>
-    <loc>https://blog.topasm.me/tags/hugo/</loc>
-    <lastmod>2021-08-23T17:55:29+09:00</lastmod>
-  </url><url>
-    <loc>https://blog.topasm.me/categories/hugo/</loc>
-    <lastmod>2021-08-23T17:55:29+09:00</lastmod>
-  </url><url>
-    <loc>https://blog.topasm.me/posts/my-second-post/</loc>
-    <lastmod>2021-08-23T17:55:29+09:00</lastmod>
-  </url><url>
-    <loc>https://blog.topasm.me/posts/</loc>
-    <lastmod>2021-08-23T17:55:29+09:00</lastmod>
-  </url><url>
-    <loc>https://blog.topasm.me/tags/</loc>
-    <lastmod>2021-08-23T17:55:29+09:00</lastmod>
-  </url><url>
-    <loc>https://blog.topasm.me/</loc>
-    <lastmod>2021-08-23T17:55:29+09:00</lastmod>
-  </url><url>
-    <loc>https://blog.topasm.me/posts/my-first-post/</loc>
-    <lastmod>2021-08-03T20:41:16+09:00</lastmod>
-  </url><url>
     <loc>https://blog.topasm.me/archives/</loc>
   </url><url>
+    <loc>https://blog.topasm.me/categories/</loc>
+  </url><url>
     <loc>https://blog.topasm.me/search/</loc>
+  </url><url>
+    <loc>https://blog.topasm.me/tags/</loc>
+  </url><url>
+    <loc>https://blog.topasm.me/</loc>
   </url>
 </urlset>
