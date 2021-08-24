@@ -107,9 +107,9 @@ draft: false
 - [ ] 체크표시 없음
 
 ### youtube
-```
-{{< youtube vZ4Os97-wVQ >}}
-```
+
+중괄호 2개 부등식기호1개로 하고 \{랑 \<로 ( youtube v머시기 코드)
+
 
 https://youtu.be/vZ4Os97-wVQ
 주소 뒷부분의 코드를 따서 붙여넣으면 된다  
