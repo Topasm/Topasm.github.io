@@ -88,6 +88,19 @@
 </article>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Making_blog2</h2>
+</header>
+<section class=entry-content>
+<p>이어서 VS 코드를 켰다면
+. ├── config.toml ├── content/ │ └── posts/ ├── static/ └── themes/ └── PaperMod/ 이러한 폴더구조로 되어있다.
+config 수정 이제 config.toml 을 수정해야 한다. Vscode 에서 config.toml파일을 클릭해 수정해보자. 내가 사용하는 papermod 의 예시는 아래와 같다.
+baseURL = "https://examplesite.com/" title = "ExampleSite" paginate = 5 theme = "PaperMod" enableRobotsTXT = true buildDrafts = false buildFuture = false buildExpired = false googleAnalytics = "UA-123-45" [minify] disableXML = true minifyOutput = true [params] env = "production" title = "ExampleSite" description = "ExampleSite description" keywords = [ "Blog", "Portfolio", "PaperMod" ] author = "Me" images = [ "&lt;link or path of image for opengraph, twitter-cards>" ] DateFormat = "January 2, 2006" defaultTheme = "auto" disableThemeToggle = false ShowReadingTime = true ShowShareButtons = true ShowPostNavLinks = true ShowBreadCrumbs = true ShowCodeCopyButtons = false disableSpecial1stPost = false disableScrollToTop = false comments = false hidemeta = false hideSummary = false showtoc = false tocopen = false [params....</p>
+</section>
+<footer class=entry-footer>August 25, 2021&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Kim</footer>
+<a class=entry-link aria-label="post link to Making_blog2" href=https://blog.topasm.me/posts/making_blog2/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>hugo 와 github action 을 이용해 블로그 만들기 - 1</h2>
 </header>
 <section class=entry-content>

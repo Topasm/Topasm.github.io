@@ -5,7 +5,19 @@
     <link>https://blog.topasm.me/tags/blog/</link>
     <description>Recent content in blog on Topasm blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 25 Aug 2021 14:26:08 +0900</lastBuildDate><atom:link href="https://blog.topasm.me/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Aug 2021 20:51:28 +0900</lastBuildDate><atom:link href="https://blog.topasm.me/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Making_blog2</title>
+      <link>https://blog.topasm.me/posts/making_blog2/</link>
+      <pubDate>Wed, 25 Aug 2021 20:51:28 +0900</pubDate>
+      
+      <guid>https://blog.topasm.me/posts/making_blog2/</guid>
+      <description>이어서 VS 코드를 켰다면
+. ├── config.toml ├── content/ │ └── posts/ ├── static/ └── themes/ └── PaperMod/ 이러한 폴더구조로 되어있다.
+config 수정 이제 config.toml 을 수정해야 한다. Vscode 에서 config.toml파일을 클릭해 수정해보자. 내가 사용하는 papermod 의 예시는 아래와 같다.
+baseURL = &amp;quot;https://examplesite.com/&amp;quot; title = &amp;quot;ExampleSite&amp;quot; paginate = 5 theme = &amp;quot;PaperMod&amp;quot; enableRobotsTXT = true buildDrafts = false buildFuture = false buildExpired = false googleAnalytics = &amp;quot;UA-123-45&amp;quot; [minify] disableXML = true minifyOutput = true [params] env = &amp;quot;production&amp;quot; title = &amp;quot;ExampleSite&amp;quot; description = &amp;quot;ExampleSite description&amp;quot; keywords = [ &amp;quot;Blog&amp;quot;, &amp;quot;Portfolio&amp;quot;, &amp;quot;PaperMod&amp;quot; ] author = &amp;quot;Me&amp;quot; images = [ &amp;quot;&amp;lt;link or path of image for opengraph, twitter-cards&amp;gt;&amp;quot; ] DateFormat = &amp;quot;January 2, 2006&amp;quot; defaultTheme = &amp;quot;auto&amp;quot; disableThemeToggle = false ShowReadingTime = true ShowShareButtons = true ShowPostNavLinks = true ShowBreadCrumbs = true ShowCodeCopyButtons = false disableSpecial1stPost = false disableScrollToTop = false comments = false hidemeta = false hideSummary = false showtoc = false tocopen = false [params.</description>
+    </item>
+    
     <item>
       <title>hugo 와 github action 을 이용해 블로그 만들기 - 1</title>
       <link>https://blog.topasm.me/posts/making_blog/</link>
