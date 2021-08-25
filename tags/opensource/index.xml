@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Topasm blog</title>
-    <link>https://blog.topasm.me/posts/</link>
-    <description>Recent content in Posts on Topasm blog</description>
+    <title>opensource on Topasm blog</title>
+    <link>https://blog.topasm.me/tags/opensource/</link>
+    <description>Recent content in opensource on Topasm blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 25 Aug 2021 12:54:50 +0900</lastBuildDate><atom:link href="https://blog.topasm.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Aug 2021 12:54:50 +0900</lastBuildDate><atom:link href="https://blog.topasm.me/tags/opensource/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>오픈소스 라이센스 정리</title>
       <link>https://blog.topasm.me/posts/opensource_licenses/</link>
@@ -15,18 +15,6 @@
       <description>깃헙에 많은 오픈소스가 공개되어 있는데 라이센스를 잘못 이용하면 문제가 생길 수 있기 때문에 대략적으로 알고 있으면 좋다
 GNU GPL License:  GPL 라이센스라고 부르며 이 라이센스를 이용했으면 이용해서 만든 소스를 공개해야 한다. GPL 에도 LGPL, GPL 2 등 세부 종류가 있지만 대체적으로 오픈소스를 사용했다면 내 소스 오픈이 기본  대표적으로 리눅스가 이 라이센스이다.
 BSD License:  이건 출처를 밝히는게 원칙. BSD 소스를 이용했으면 소스 사용을 표기해야 함. 상업용으로 사용해도 무관하고 소스공개를 하지 않아도 됨  대표적으로 OpenCV, FreeBSD, 맥os가 BSD라이센스이다.</description>
-    </item>
-    
-    <item>
-      <title>마크다운 문법 정리</title>
-      <link>https://blog.topasm.me/posts/markdown_grammer/</link>
-      <pubDate>Tue, 24 Aug 2021 21:11:13 +0900</pubDate>
-      
-      <guid>https://blog.topasm.me/posts/markdown_grammer/</guid>
-      <description>블로그 개설 후 글을 쓰려고 하니 블로그에 가독성 좋은 글을 쓰기 위해서는 마크다운 문법에 대한 복습이 필요하다고 생각이 들었다. 최대한 내가 쓸 문법들만 모아서 정리해보았다.
-Heading 제목 # H1 ## H2 ### H3 H1 H2 H3 Bold 볼드 Italic 이탈릭 Strikethrough 줄긋기 **bold text** *italicized text* ~~줄긋기~~ bold text italicized text 줄긋기
-Blockquote 인용 &amp;gt; blockquote 인용하고 싶은글  blockquote 인용하고 싶은글
- Ordered List 순서있는 리스트 1. First item 2.</description>
     </item>
     
   </channel>
