@@ -3,11 +3,11 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <meta name=robots content="index, follow">
-<title>Archive | Topasm blog</title>
+<title>hugo | Topasm blog</title>
 <meta name=keywords content>
-<meta name=description content="archives">
+<meta name=description content="personal blog">
 <meta name=author content="Kim">
-<link rel=canonical href=https://blog.topasm.me/archives/>
+<link rel=canonical href=https://blog.topasm.me/tags/hugo/>
 <meta name=google-site-verification content="XYZabc">
 <link crossorigin=anonymous href=/assets/css/stylesheet.min.6cba0d81b5f3f42bb578d49f402ba4175aa72b43def148780b8ad714c957c6f5.css integrity="sha256-bLoNgbXz9Cu1eNSfQCukF1qnK0Pe8Uh4C4rXFMlXxvU=" rel="preload stylesheet" as=style>
 <link rel=preload href=/Iconrobot.png as=image>
@@ -19,16 +19,14 @@
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
 <meta name=generator content="Hugo 0.87.0">
-<script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-123-45','auto'),ga('send','pageview'))</script><meta property="og:title" content="Archive">
-<meta property="og:description" content="archives">
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://blog.topasm.me/archives/"><meta property="article:section" content>
-<meta property="og:site_name" content="topasm|robotics">
+<link rel=alternate type=application/rss+xml href=https://blog.topasm.me/tags/hugo/index.xml>
+<script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-123-45','auto'),ga('send','pageview'))</script><meta property="og:title" content="hugo">
+<meta property="og:description" content="personal blog">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://blog.topasm.me/tags/hugo/"><meta property="og:site_name" content="topasm|robotics">
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="Archive">
-<meta name=twitter:description content="archives">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Archive","item":"https://blog.topasm.me/archives/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Archive","name":"Archive","description":"archives","keywords":[],"articleBody":"","wordCount":"0","inLanguage":"en","datePublished":"0001-01-01T00:00:00Z","dateModified":"0001-01-01T00:00:00Z","author":{"@type":"Person","name":"Kim"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.topasm.me/archives/"},"publisher":{"@type":"Organization","name":"Topasm blog","logo":{"@type":"ImageObject","url":"https://blog.topasm.me/favicon.ico"}}}</script>
+<meta name=twitter:title content="hugo">
+<meta name=twitter:description content="personal blog">
 </head>
 <body class=list id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -49,7 +47,7 @@
 <ul id=menu>
 <li>
 <a href=https://blog.topasm.me/archives/ title=Archive>
-<span class=active>Archive</span>
+<span>Archive</span>
 </a>
 </li>
 <li>
@@ -71,36 +69,21 @@
 </nav>
 </header>
 <main class=main>
-<header class=page-header>
-<h1>Archive</h1>
+<header class=page-header><div class=breadcrumbs><a href=https://blog.topasm.me/>Home</a>&nbsp;»&nbsp;<a href=https://blog.topasm.me/tags/>Tags</a></div>
+<h1>hugo</h1>
 </header>
-<div class=archive-year>
-<h2 class=archive-year-header>2021<sup class=archive-count>&nbsp;&nbsp;3</sup>
-</h2>
-<div class=archive-month>
-<h3 class=archive-month-header>August<sup class=archive-count>&nbsp;&nbsp;3</sup></h3>
-<div class=archive-posts>
-<div class=archive-entry>
-<h3 class=archive-entry-title>hugo 와 github action 을 이용해 블로그 만들기 - 1
-</h3>
-<div class=archive-meta>August 25, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kim</div>
+<article class="post-entry tag-entry">
+<header class=entry-header>
+<h2>hugo 와 github action 을 이용해 블로그 만들기 - 1</h2>
+</header>
+<section class=entry-content>
+<p>윈도우 환경에서 내가 블로그 개발을 한 방법을 소개 한다.
+레포지토리를 1개만 생성하고 github actions 를 이용해 커밋만 하면 자동으로 웹페이지로 배포 되도록 만들었다. 그리고 go 로 짜여진 hugo 를 이용하였다. 이유는 업데이트가 빠르고 빌드속도가 빠르기 때문이다.
+준비물 깃헙 계정 GitHub 윈도우 터미널 설치 Windows Terminal installation | Microsoft Docs 깃 설치 Git - Downloads (git-scm.com) vscode 설치 Visual Studio Code - Code Editing. Redefined go 언어 설치 The Go Programming Language (golang....</p>
+</section>
+<footer class=entry-footer>August 25, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kim</footer>
 <a class=entry-link aria-label="post link to hugo 와 github action 을 이용해 블로그 만들기 - 1" href=https://blog.topasm.me/posts/making_blog/></a>
-</div>
-<div class=archive-entry>
-<h3 class=archive-entry-title>오픈소스 라이센스 정리
-</h3>
-<div class=archive-meta>August 25, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Kim</div>
-<a class=entry-link aria-label="post link to 오픈소스 라이센스 정리" href=https://blog.topasm.me/posts/opensource_licenses/></a>
-</div>
-<div class=archive-entry>
-<h3 class=archive-entry-title>마크다운 문법 정리
-</h3>
-<div class=archive-meta>August 24, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Kim</div>
-<a class=entry-link aria-label="post link to 마크다운 문법 정리" href=https://blog.topasm.me/posts/markdown_grammer/></a>
-</div>
-</div>
-</div>
-</div>
+</article>
 </main>
 <footer class=footer>
 <span>&copy; 2021 <a href=https://blog.topasm.me/>Topasm blog</a></span>

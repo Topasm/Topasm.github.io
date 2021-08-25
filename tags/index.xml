@@ -5,7 +5,34 @@
     <link>https://blog.topasm.me/tags/</link>
     <description>Recent content in Tags on Topasm blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 25 Aug 2021 12:54:50 +0900</lastBuildDate><atom:link href="https://blog.topasm.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Aug 2021 14:26:08 +0900</lastBuildDate><atom:link href="https://blog.topasm.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>blog</title>
+      <link>https://blog.topasm.me/tags/blog/</link>
+      <pubDate>Wed, 25 Aug 2021 14:26:08 +0900</pubDate>
+      
+      <guid>https://blog.topasm.me/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://blog.topasm.me/tags/hugo/</link>
+      <pubDate>Wed, 25 Aug 2021 14:26:08 +0900</pubDate>
+      
+      <guid>https://blog.topasm.me/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web</title>
+      <link>https://blog.topasm.me/tags/web/</link>
+      <pubDate>Wed, 25 Aug 2021 14:26:08 +0900</pubDate>
+      
+      <guid>https://blog.topasm.me/tags/web/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>opensource</title>
       <link>https://blog.topasm.me/tags/opensource/</link>
@@ -30,15 +57,6 @@
       <pubDate>Tue, 24 Aug 2021 21:11:13 +0900</pubDate>
       
       <guid>https://blog.topasm.me/tags/markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>web</title>
-      <link>https://blog.topasm.me/tags/web/</link>
-      <pubDate>Tue, 24 Aug 2021 21:11:13 +0900</pubDate>
-      
-      <guid>https://blog.topasm.me/tags/web/</guid>
       <description></description>
     </item>
     
