@@ -1,5 +1,5 @@
 ---
-title: "Making_blog2"
+title: "Hugo 와 github action 을 이용해 블로그 만들기 - 2"
 date: 2021-08-25T20:51:28+09:00
 categories: [web]
 tags: [blog, hugo, web]
