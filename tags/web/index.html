@@ -18,7 +18,7 @@
 <link rel=mask-icon href=https://blog.topasm.me/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.87.0">
+<meta name=generator content="Hugo 0.88.1">
 <link rel=alternate type=application/rss+xml href=https://blog.topasm.me/tags/web/index.xml>
 <script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-123-45','auto'),ga('send','pageview'))</script><meta property="og:title" content="web">
 <meta property="og:description" content="personal blog">
@@ -74,7 +74,19 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Making_blog2</h2>
+<h2>Hugo 와 github action 을 이용해 블로그 만들기 - 3완</h2>
+</header>
+<section class=entry-content>
+<p>저번 글까지 따라왔다면 로컬에 블로그 화면을 띄울 수 있을 것이다. 이제 github pages 와 github actions 기능을 이용해 커밋과 동시에 빌드해 사이트를 배포하도록 해본다. 그리고 커스텀 도메인을 사용하도록 설정 해본다.
+repository 만들기 커스텀 도메인을 이용하지 않는 경우 저장소(repository) 이름이 사이트 주소를 결정한다. 닉네임.github.io 으로 하면 주소가 닉네임.github.io 가 되고 아무이름 으로 하면 닉네임.github.io/아무이름 이런 식으로 주소가 개설 된다.
+github action 사용하기 personal access token 발급받기 github 접속 > developer settings > personal access token > generate new token 라고 하면창이 뜬다....</p>
+</section>
+<footer class=entry-footer>September 6, 2021&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Kim</footer>
+<a class=entry-link aria-label="post link to Hugo 와 github action 을 이용해 블로그 만들기 - 3완" href=https://blog.topasm.me/posts/making_blog3/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
+<h2>Hugo 와 github action 을 이용해 블로그 만들기 - 2</h2>
 </header>
 <section class=entry-content>
 <p>이어서 VS 코드를 켰다면
@@ -83,7 +95,7 @@ config 수정 이제 config.toml 을 수정해야 한다. Vscode 에서 config.t
 baseURL = "https://examplesite.com/" title = "ExampleSite" paginate = 5 theme = "PaperMod" enableRobotsTXT = true buildDrafts = false buildFuture = false buildExpired = false googleAnalytics = "UA-123-45" [minify] disableXML = true minifyOutput = true [params] env = "production" title = "ExampleSite" description = "ExampleSite description" keywords = [ "Blog", "Portfolio", "PaperMod" ] author = "Me" images = [ "&lt;link or path of image for opengraph, twitter-cards>" ] DateFormat = "January 2, 2006" defaultTheme = "auto" disableThemeToggle = false ShowReadingTime = true ShowShareButtons = true ShowPostNavLinks = true ShowBreadCrumbs = true ShowCodeCopyButtons = false disableSpecial1stPost = false disableScrollToTop = false comments = false hidemeta = false hideSummary = false showtoc = false tocopen = false [params....</p>
 </section>
 <footer class=entry-footer>August 25, 2021&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Kim</footer>
-<a class=entry-link aria-label="post link to Making_blog2" href=https://blog.topasm.me/posts/making_blog2/></a>
+<a class=entry-link aria-label="post link to Hugo 와 github action 을 이용해 블로그 만들기 - 2" href=https://blog.topasm.me/posts/making_blog2/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
