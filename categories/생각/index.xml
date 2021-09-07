@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>생각 on Topasm blog</title>
+    <link>https://blog.topasm.me/categories/%EC%83%9D%EA%B0%81/</link>
+    <description>Recent content in 생각 on Topasm blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 07 Sep 2021 08:32:22 +0900</lastBuildDate><atom:link href="https://blog.topasm.me/categories/%EC%83%9D%EA%B0%81/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>topasm 이름의 유래</title>
+      <link>https://blog.topasm.me/posts/origin_of_topasm/</link>
+      <pubDate>Tue, 07 Sep 2021 08:32:22 +0900</pubDate>
+      
+      <guid>https://blog.topasm.me/posts/origin_of_topasm/</guid>
+      <description>원래 닉네임으로 이름을 쓰다가 도메인으로도 쓰고 닉네임으로도 쓸 영어 닉네임이 필요하다고 느꼈다. 아무래도 한글 이름은 영어권에서 발음하기가 어렵고 길다. 개인적으로 이름이 주는 영향이 크다고 생각하기 때문에 꽤 오랜시간동안 고민했던거 같다. 블로그에 내가 어떤 생각으로 만들었는지 기록해 놓고자 한다.
+고려 했던 점 길지 않을것, 발음하기 쉬울것, 의미가 있는 이름일것 정도 고려 했다. 사실 결론적으로는 완전 만족하진 않은거 같다. 그래도 고민해서 지은거라 오래 써보고 다른 작명을 하게 되면 좀 더 나은 이름을 만들어 봐야지.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,25 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.topasm.me/tags/blog/</loc>
-    <lastmod>2021-09-06T10:54:16+09:00</lastmod>
-  </url><url>
     <loc>https://blog.topasm.me/categories/</loc>
+    <lastmod>2021-09-07T08:32:22+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.topasm.me/posts/</loc>
+    <lastmod>2021-09-07T08:32:22+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.topasm.me/tags/</loc>
+    <lastmod>2021-09-07T08:32:22+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.topasm.me/</loc>
+    <lastmod>2021-09-07T08:32:22+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.topasm.me/posts/origin_of_topasm/</loc>
+    <lastmod>2021-09-07T08:32:22+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.topasm.me/tags/%EC%83%9D%EA%B0%81/</loc>
+    <lastmod>2021-09-07T08:32:22+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.topasm.me/categories/%EC%83%9D%EA%B0%81/</loc>
+    <lastmod>2021-09-07T08:32:22+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.topasm.me/tags/blog/</loc>
     <lastmod>2021-09-06T10:54:16+09:00</lastmod>
   </url><url>
     <loc>https://blog.topasm.me/tags/hugo/</loc>
     <lastmod>2021-09-06T10:54:16+09:00</lastmod>
   </url><url>
     <loc>https://blog.topasm.me/posts/making_blog3/</loc>
-    <lastmod>2021-09-06T10:54:16+09:00</lastmod>
-  </url><url>
-    <loc>https://blog.topasm.me/posts/</loc>
-    <lastmod>2021-09-06T10:54:16+09:00</lastmod>
-  </url><url>
-    <loc>https://blog.topasm.me/tags/</loc>
-    <lastmod>2021-09-06T10:54:16+09:00</lastmod>
-  </url><url>
-    <loc>https://blog.topasm.me/</loc>
     <lastmod>2021-09-06T10:54:16+09:00</lastmod>
   </url><url>
     <loc>https://blog.topasm.me/tags/web/</loc>
