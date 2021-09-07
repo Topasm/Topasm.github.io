@@ -15,9 +15,11 @@ draft: false
 ### github action 사용하기
 1. personal access token 발급받기
 github 접속 > developer settings > personal access token > generate new token
-라고 하면![image|584x499](https://rats.topasm.me/uploads/default/original/1X/f696454a2e0259bdc52e727b23b5b8f79e4b90ab.png)
+라고 하면
+![image|584x499](https://rats.topasm.me/uploads/default/original/1X/f696454a2e0259bdc52e727b23b5b8f79e4b90ab.png)
 창이 뜬다. 
-- [x] public_repo 에 체크 
+- [x] public_repo 에 체크   
+
 Note에 토큰 이름(영어로) ex)Hugo_Token
 
 
