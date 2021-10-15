@@ -5,7 +5,17 @@
     <link>https://blog.topasm.me/</link>
     <description>Recent content on Topasm blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 07 Sep 2021 08:32:22 +0900</lastBuildDate><atom:link href="https://blog.topasm.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Oct 2021 18:41:21 +0900</lastBuildDate><atom:link href="https://blog.topasm.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why_opensource</title>
+      <link>https://blog.topasm.me/posts/why_opensource/</link>
+      <pubDate>Fri, 15 Oct 2021 18:41:21 +0900</pubDate>
+      
+      <guid>https://blog.topasm.me/posts/why_opensource/</guid>
+      <description>어떤 프로젝트를 하면서 무엇보다도 도움이 되는것 중 하나가 오픈소스 이다. 왜 오픈소스를 하는걸가 장점 단점을 한번 생각 해 보았다.
+사회 전체로 보았을때 지식의 세계를 자본주의와 비교 하자면, 자본주의에서 돈을 더 많이 가진 사람이 더 많은 힘, 권력을 얻는다. 지식도 마찬가지로 더 많이 알고 배운사람이 대체적으로 높은 지위를 가지게 된다. 하지만 산업화 이후로 부의 격차는 점점더 벌어지고 있고, 대기업의 총수나 재벌은 일반적인 중산층은 넘볼수 없는 엄청난 양극화가 만들어지고 있다. 이러한 상황에서 정부의 제어로 부의 재분배가 일어나고는 있다.</description>
+    </item>
+    
     <item>
       <title>topasm 이름의 유래</title>
       <link>https://blog.topasm.me/posts/origin_of_topasm/</link>
