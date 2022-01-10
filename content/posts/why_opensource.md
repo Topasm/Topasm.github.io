@@ -1,5 +1,5 @@
 ---
-title: "Why_opensource"
+title: "오픈소스를 왜 만들고 쓸까"
 date: 2021-10-15T18:41:21+09:00
 categories: [생각]
 tags: [생각]
