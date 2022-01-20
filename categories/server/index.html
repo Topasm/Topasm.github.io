@@ -3,11 +3,11 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <meta name=robots content="index, follow">
-<title>생각 | Topasm blog</title>
+<title>server | Topasm blog</title>
 <meta name=keywords content>
 <meta name=description content="personal blog">
 <meta name=author content="Kim">
-<link rel=canonical href=https://blog.topasm.me/categories/%EC%83%9D%EA%B0%81/>
+<link rel=canonical href=https://blog.topasm.me/categories/server/>
 <meta name=google-site-verification content="XYZabc">
 <link crossorigin=anonymous href=/assets/css/stylesheet.min.c88963fe2d79462000fd0fb1b3737783c32855d340583e4523343f8735c787f0.css integrity="sha256-yIlj/i15RiAA/Q+xs3N3g8MoVdNAWD5FIzQ/hzXHh/A=" rel="preload stylesheet" as=style>
 <link rel=preload href=/Iconrobot.png as=image>
@@ -19,17 +19,17 @@
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
 <meta name=generator content="Hugo 0.92.0">
-<link rel=alternate type=application/rss+xml href=https://blog.topasm.me/categories/%EC%83%9D%EA%B0%81/index.xml>
+<link rel=alternate type=application/rss+xml href=https://blog.topasm.me/categories/server/index.xml>
 <noscript>
 <style>#theme-toggle,.top-link{display:none}</style>
 <style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style>
 </noscript>
-<script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-123-45','auto'),ga('send','pageview'))</script><meta property="og:title" content="생각">
+<script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-123-45','auto'),ga('send','pageview'))</script><meta property="og:title" content="server">
 <meta property="og:description" content="personal blog">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://blog.topasm.me/categories/%EC%83%9D%EA%B0%81/"><meta property="og:site_name" content="topasm|robotics">
+<meta property="og:url" content="https://blog.topasm.me/categories/server/"><meta property="og:site_name" content="topasm|robotics">
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="생각">
+<meta name=twitter:title content="server">
 <meta name=twitter:description content="personal blog">
 </head>
 <body class=list id=top>
@@ -70,31 +70,31 @@
 </header>
 <main class=main>
 <header class=page-header><div class=breadcrumbs><a href=https://blog.topasm.me/>Home</a>&nbsp;»&nbsp;<a href=https://blog.topasm.me/categories/>Categories</a></div>
-<h1>생각</h1>
+<h1>server</h1>
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>오픈소스를 왜 만들고 쓸까
+<h2>Discourse_setup
 </h2>
 </header>
 <section class=entry-content>
-<p>어떤 프로젝트를 하면서 무엇보다도 도움이 되는것 중 하나가 오픈소스 이다. 왜 오픈소스를 하는걸가 장점 단점을 한번 생각 해 보았다.
-사회 전체로 보았을때 지식의 세계를 자본주의와 비교 하자면, 자본주의에서 돈을 더 많이 가진 사람이 더 많은 힘, 권력을 얻는다. 지식도 마찬가지로 더 많이 알고 배운사람이 대체적으로 높은 지위를 가지게 된다. 하지만 산업화 이후로 부의 격차는 점점더 벌어지고 있고, 대기업의 총수나 재벌은 일반적인 중산층은 넘볼수 없는 엄청난 양극화가 만들어지고 있다. 이러한 상황에서 정부의 제어로 부의 재분배가 일어나고는 있다....</p>
+<p>동아리 서버용 디스코스 설치 명령어 모음
+sudo apt update sudo apt upgrade -y
+패키지 업그레이드
+sudo timedatectl set-timezone ‘Asia/Seoul’ 시간 변경
+sudo wget -qO- https://get.docker.com/ | sh
+도커 설치
+docker version
+도커버전 확인
+sudo usermod -aG docker $USER
+도커 권한 부여
+sudo service docker restart
+도커 재시작 sudo -s git clone https://github.com/discourse/discourse_docker.git /var/discourse cd /var/discourse
+깃으로 다운로드
+iptables -I INPUT -p tcp –dport 80 -j ACCEPT iptables -I INPUT -p tcp –dport 443 -j ACCEPT...</p>
 </section>
-<footer class=entry-footer><span title="2021-10-15 18:41:21 +0900 +0900">October 15, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kim</footer>
-<a class=entry-link aria-label="post link to 오픈소스를 왜 만들고 쓸까" href=https://blog.topasm.me/posts/why_opensource/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>topasm 이름의 유래
-</h2>
-</header>
-<section class=entry-content>
-<p>원래 닉네임으로 이름을 쓰다가 도메인으로도 쓰고 닉네임으로도 쓸 영어 닉네임이 필요하다고 느꼈다. 아무래도 한글 이름은 영어권에서 발음하기가 어렵고 길다. 개인적으로 이름이 주는 영향이 크다고 생각하기 때문에 꽤 오랜시간동안 고민했던거 같다. 블로그에 내가 어떤 생각으로 만들었는지 기록해 놓고자 한다.
-고려 했던 점 길지 않을것, 발음하기 쉬울것, 의미가 있는 이름일것 정도 고려 했다. 사실 결론적으로는 완전 만족하진 않은거 같다. 그래도 고민해서 지은거라 오래 써보고 다른 작명을 하게 되면 좀 더 나은 이름을 만들어 봐야지....</p>
-</section>
-<footer class=entry-footer><span title="2021-09-07 08:32:22 +0900 +0900">September 7, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kim</footer>
-<a class=entry-link aria-label="post link to topasm 이름의 유래" href=https://blog.topasm.me/posts/origin_of_topasm/></a>
+<footer class=entry-footer><span title="2022-01-15 22:35:38 +0900 +0900">January 15, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Kim</footer>
+<a class=entry-link aria-label="post link to Discourse_setup" href=https://blog.topasm.me/posts/discourse_setup/></a>
 </article>
 </main>
 <footer class=footer>

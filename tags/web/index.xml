@@ -5,7 +5,29 @@
     <link>https://blog.topasm.me/tags/web/</link>
     <description>Recent content in web on Topasm blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 06 Sep 2021 10:54:16 +0900</lastBuildDate><atom:link href="https://blog.topasm.me/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Jan 2022 22:35:38 +0900</lastBuildDate><atom:link href="https://blog.topasm.me/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Discourse_setup</title>
+      <link>https://blog.topasm.me/posts/discourse_setup/</link>
+      <pubDate>Sat, 15 Jan 2022 22:35:38 +0900</pubDate>
+      
+      <guid>https://blog.topasm.me/posts/discourse_setup/</guid>
+      <description>동아리 서버용 디스코스 설치 명령어 모음
+sudo apt update sudo apt upgrade -y
+패키지 업그레이드
+sudo timedatectl set-timezone &amp;lsquo;Asia/Seoul&amp;rsquo; 시간 변경
+sudo wget -qO- https://get.docker.com/ | sh
+도커 설치
+docker version
+도커버전 확인
+sudo usermod -aG docker $USER
+도커 권한 부여
+sudo service docker restart
+도커 재시작 sudo -s git clone https://github.com/discourse/discourse_docker.git /var/discourse cd /var/discourse
+깃으로 다운로드
+iptables -I INPUT -p tcp &amp;ndash;dport 80 -j ACCEPT iptables -I INPUT -p tcp &amp;ndash;dport 443 -j ACCEPT</description>
+    </item>
+    
     <item>
       <title>Hugo 와 github action 을 이용해 블로그 만들기 - 3완</title>
       <link>https://blog.topasm.me/posts/making_blog3/</link>

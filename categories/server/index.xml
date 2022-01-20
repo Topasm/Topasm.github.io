@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>server on Topasm blog</title>
+    <link>https://blog.topasm.me/categories/server/</link>
+    <description>Recent content in server on Topasm blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 15 Jan 2022 22:35:38 +0900</lastBuildDate><atom:link href="https://blog.topasm.me/categories/server/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Discourse_setup</title>
+      <link>https://blog.topasm.me/posts/discourse_setup/</link>
+      <pubDate>Sat, 15 Jan 2022 22:35:38 +0900</pubDate>
+      
+      <guid>https://blog.topasm.me/posts/discourse_setup/</guid>
+      <description>동아리 서버용 디스코스 설치 명령어 모음
+sudo apt update sudo apt upgrade -y
+패키지 업그레이드
+sudo timedatectl set-timezone &amp;lsquo;Asia/Seoul&amp;rsquo; 시간 변경
+sudo wget -qO- https://get.docker.com/ | sh
+도커 설치
+docker version
+도커버전 확인
+sudo usermod -aG docker $USER
+도커 권한 부여
+sudo service docker restart
+도커 재시작 sudo -s git clone https://github.com/discourse/discourse_docker.git /var/discourse cd /var/discourse
+깃으로 다운로드
+iptables -I INPUT -p tcp &amp;ndash;dport 80 -j ACCEPT iptables -I INPUT -p tcp &amp;ndash;dport 443 -j ACCEPT</description>
+    </item>
+    
+  </channel>
+</rss>
