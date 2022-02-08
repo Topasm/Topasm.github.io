@@ -69,9 +69,7 @@ iconHeight = 35
 [params.homeInfoParams]
 Title = "안녕하세요 Hello👋"
 Content = """
-Mechanical engineering Bachelor degree 3nd year | Interest in Robotics
-
--기계공학과 3학년 학생이며 로봇에 관심이 많습니다.
+Topasm Mechanical Engineering
 
 """
 [[params.socialIcons]]
