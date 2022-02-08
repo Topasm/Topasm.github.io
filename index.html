@@ -17,7 +17,7 @@
 <link rel=mask-icon href=https://blog.topasm.me/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.92.0">
+<meta name=generator content="Hugo 0.92.1">
 <link rel=alternate type=application/rss+xml href=https://blog.topasm.me/index.xml>
 <link rel=alternate type=application/json href=https://blog.topasm.me/index.json>
 <noscript>
@@ -92,20 +92,14 @@
 </h2>
 </header>
 <section class=entry-content>
-<p>동아리 서버용 디스코스 설치 명령어 모음
-sudo apt update sudo apt upgrade -y
-패키지 업그레이드
-sudo timedatectl set-timezone ‘Asia/Seoul’ 시간 변경
-sudo wget -qO- https://get.docker.com/ | sh
-도커 설치
-docker version
-도커버전 확인
-sudo usermod -aG docker $USER
-도커 권한 부여
-sudo service docker restart
-도커 재시작 sudo -s git clone https://github.com/discourse/discourse_docker.git /var/discourse cd /var/discourse
-깃으로 다운로드
-iptables -I INPUT -p tcp –dport 80 -j ACCEPT iptables -I INPUT -p tcp –dport 443 -j ACCEPT...</p>
+<p>동아리 서버용 디스코스 설치 명령어 모음 sudo apt update sudo apt upgrade -y 패키지 업그레이드
+sudo timedatectl set-timezone 'Asia/Seoul' 시간 변경
+sudo wget -qO- https://get.docker.com/ | sh 도커 설치
+docker version 도커버전 확인
+sudo usermod -aG docker $USER 도커 권한 부여
+sudo service docker restart 도커 재시작
+sudo -s git clone https://github.com/discourse/discourse_docker.git /var/discourse cd /var/discourse 깃으로 다운로드
+iptables -I INPUT -p tcp --dport 80 -j ACCEPT iptables -I INPUT -p tcp --dport 443 -j ACCEPT 서버 포트 오픈...</p>
 </section>
 <footer class=entry-footer><span title="2022-01-15 22:35:38 +0900 +0900">January 15, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Kim</footer>
 <a class=entry-link aria-label="post link to Discourse_setup" href=https://blog.topasm.me/posts/discourse_setup/></a>

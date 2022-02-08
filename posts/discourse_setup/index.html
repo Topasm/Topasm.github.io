@@ -5,20 +5,14 @@
 <meta name=robots content="index, follow">
 <title>Discourse_setup | Topasm blog</title>
 <meta name=keywords content="web">
-<meta name=description content="동아리 서버용 디스코스 설치 명령어 모음
-sudo apt update sudo apt upgrade -y
-패키지 업그레이드
-sudo timedatectl set-timezone &lsquo;Asia/Seoul&rsquo; 시간 변경
-sudo wget -qO- https://get.docker.com/ | sh
-도커 설치
-docker version
-도커버전 확인
-sudo usermod -aG docker $USER
-도커 권한 부여
-sudo service docker restart
-도커 재시작 sudo -s git clone https://github.com/discourse/discourse_docker.git /var/discourse cd /var/discourse
-깃으로 다운로드
-iptables -I INPUT -p tcp &ndash;dport 80 -j ACCEPT iptables -I INPUT -p tcp &ndash;dport 443 -j ACCEPT">
+<meta name=description content="동아리 서버용 디스코스 설치 명령어 모음 sudo apt update sudo apt upgrade -y 패키지 업그레이드
+sudo timedatectl set-timezone 'Asia/Seoul' 시간 변경
+sudo wget -qO- https://get.docker.com/ | sh 도커 설치
+docker version 도커버전 확인
+sudo usermod -aG docker $USER 도커 권한 부여
+sudo service docker restart 도커 재시작
+sudo -s git clone https://github.com/discourse/discourse_docker.git /var/discourse cd /var/discourse 깃으로 다운로드
+iptables -I INPUT -p tcp --dport 80 -j ACCEPT iptables -I INPUT -p tcp --dport 443 -j ACCEPT 서버 포트 오픈">
 <meta name=author content="Kim">
 <link rel=canonical href=https://blog.topasm.me/posts/discourse_setup/>
 <meta name=google-site-verification content="XYZabc">
@@ -32,48 +26,36 @@ iptables -I INPUT -p tcp &ndash;dport 80 -j ACCEPT iptables -I INPUT -p tcp &nda
 <link rel=mask-icon href=https://blog.topasm.me/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.92.0">
+<meta name=generator content="Hugo 0.92.1">
 <noscript>
 <style>#theme-toggle,.top-link{display:none}</style>
 <style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style>
 </noscript>
 <script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-123-45','auto'),ga('send','pageview'))</script><meta property="og:title" content="Discourse_setup">
-<meta property="og:description" content="동아리 서버용 디스코스 설치 명령어 모음
-sudo apt update sudo apt upgrade -y
-패키지 업그레이드
-sudo timedatectl set-timezone &lsquo;Asia/Seoul&rsquo; 시간 변경
-sudo wget -qO- https://get.docker.com/ | sh
-도커 설치
-docker version
-도커버전 확인
-sudo usermod -aG docker $USER
-도커 권한 부여
-sudo service docker restart
-도커 재시작 sudo -s git clone https://github.com/discourse/discourse_docker.git /var/discourse cd /var/discourse
-깃으로 다운로드
-iptables -I INPUT -p tcp &ndash;dport 80 -j ACCEPT iptables -I INPUT -p tcp &ndash;dport 443 -j ACCEPT">
+<meta property="og:description" content="동아리 서버용 디스코스 설치 명령어 모음 sudo apt update sudo apt upgrade -y 패키지 업그레이드
+sudo timedatectl set-timezone 'Asia/Seoul' 시간 변경
+sudo wget -qO- https://get.docker.com/ | sh 도커 설치
+docker version 도커버전 확인
+sudo usermod -aG docker $USER 도커 권한 부여
+sudo service docker restart 도커 재시작
+sudo -s git clone https://github.com/discourse/discourse_docker.git /var/discourse cd /var/discourse 깃으로 다운로드
+iptables -I INPUT -p tcp --dport 80 -j ACCEPT iptables -I INPUT -p tcp --dport 443 -j ACCEPT 서버 포트 오픈">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://blog.topasm.me/posts/discourse_setup/"><meta property="article:section" content="posts">
 <meta property="article:published_time" content="2022-01-15T22:35:38+09:00">
 <meta property="article:modified_time" content="2022-01-15T22:35:38+09:00"><meta property="og:site_name" content="topasm|robotics">
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="Discourse_setup">
-<meta name=twitter:description content="동아리 서버용 디스코스 설치 명령어 모음
-sudo apt update sudo apt upgrade -y
-패키지 업그레이드
-sudo timedatectl set-timezone &lsquo;Asia/Seoul&rsquo; 시간 변경
-sudo wget -qO- https://get.docker.com/ | sh
-도커 설치
-docker version
-도커버전 확인
-sudo usermod -aG docker $USER
-도커 권한 부여
-sudo service docker restart
-도커 재시작 sudo -s git clone https://github.com/discourse/discourse_docker.git /var/discourse cd /var/discourse
-깃으로 다운로드
-iptables -I INPUT -p tcp &ndash;dport 80 -j ACCEPT iptables -I INPUT -p tcp &ndash;dport 443 -j ACCEPT">
+<meta name=twitter:description content="동아리 서버용 디스코스 설치 명령어 모음 sudo apt update sudo apt upgrade -y 패키지 업그레이드
+sudo timedatectl set-timezone 'Asia/Seoul' 시간 변경
+sudo wget -qO- https://get.docker.com/ | sh 도커 설치
+docker version 도커버전 확인
+sudo usermod -aG docker $USER 도커 권한 부여
+sudo service docker restart 도커 재시작
+sudo -s git clone https://github.com/discourse/discourse_docker.git /var/discourse cd /var/discourse 깃으로 다운로드
+iptables -I INPUT -p tcp --dport 80 -j ACCEPT iptables -I INPUT -p tcp --dport 443 -j ACCEPT 서버 포트 오픈">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://blog.topasm.me/posts/"},{"@type":"ListItem","position":2,"name":"Discourse_setup","item":"https://blog.topasm.me/posts/discourse_setup/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Discourse_setup","name":"Discourse_setup","description":"동아리 서버용 디스코스 설치 명령어 모음\nsudo apt update sudo apt upgrade -y\n패키지 업그레이드\nsudo timedatectl set-timezone \u0026lsquo;Asia/Seoul\u0026rsquo; 시간 변경\nsudo wget -qO- https://get.docker.com/ | sh\n도커 설치\ndocker version\n도커버전 확인\nsudo usermod -aG docker $USER\n도커 권한 부여\nsudo service docker restart\n도커 재시작 sudo -s git clone https://github.com/discourse/discourse_docker.git /var/discourse cd /var/discourse\n깃으로 다운로드\niptables -I INPUT -p tcp \u0026ndash;dport 80 -j ACCEPT iptables -I INPUT -p tcp \u0026ndash;dport 443 -j ACCEPT","keywords":["web"],"articleBody":"동아리 서버용 디스코스 설치 명령어 모음\nsudo apt update sudo apt upgrade -y\n패키지 업그레이드\nsudo timedatectl set-timezone ‘Asia/Seoul’ 시간 변경\nsudo wget -qO- https://get.docker.com/ | sh\n도커 설치\ndocker version\n도커버전 확인\nsudo usermod -aG docker $USER\n도커 권한 부여\nsudo service docker restart\n도커 재시작 sudo -s git clone https://github.com/discourse/discourse_docker.git /var/discourse cd /var/discourse\n깃으로 다운로드\niptables -I INPUT -p tcp –dport 80 -j ACCEPT iptables -I INPUT -p tcp –dport 443 -j ACCEPT\n서버 포트 오픈\nsudo netfilter-persistent save sudo netfilter-persistent reload\n세팅 저장\n./discourse-setup\n디스코스 설치 시작\nHostname for your Discourse? [discourse.example.com]: 홈페이지 주소 Email address for admin account(s)? [me@example.com,you@example.com]: 어드민 이메일(개인) SMTP server address? [smtp.example.com]: stmp 서버(난 메일건 썻다) SMTP port? [587]: 기본이 587 SMTP user name? [user@example.com]: 메일건 도메인세팅 가면 있다 SMTP password? [pa$$word]: 메일건 도메인세팅에서 리셋누르면 회색창으로 뜬다 카피 Let’s Encrypt account email? (ENTER to skip) [me@example.com]: https 하는거 Optional Maxmind License key () [xxxxxxxxxxxxxxxx]:패스\n./launcher rebuild app\n리빌드및 업데이트\nnano containers/app.yml\n서버 정보 수정\n기다림의 시간\n계속 안되다가 드디어 됬는데\nvcn 설정 전부 날리고 고정 ip 주소를 oracle 로 받았다. 오라클 클라우드 오류가 생긴다면 vcn, subnet 설정을 날리고 다시 해보자.\n","wordCount":"187","inLanguage":"en","datePublished":"2022-01-15T22:35:38+09:00","dateModified":"2022-01-15T22:35:38+09:00","author":{"@type":"Person","name":"Kim"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.topasm.me/posts/discourse_setup/"},"publisher":{"@type":"Organization","name":"Topasm blog","logo":{"@type":"ImageObject","url":"https://blog.topasm.me/favicon.ico"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Discourse_setup","name":"Discourse_setup","description":"동아리 서버용 디스코스 설치 명령어 모음 sudo apt update sudo apt upgrade -y 패키지 업그레이드\nsudo timedatectl set-timezone 'Asia/Seoul' 시간 변경\nsudo wget -qO- https://get.docker.com/ | sh 도커 설치\ndocker version 도커버전 확인\nsudo usermod -aG docker $USER 도커 권한 부여\nsudo service docker restart 도커 재시작\nsudo -s git clone https://github.com/discourse/discourse_docker.git /var/discourse cd /var/discourse 깃으로 다운로드\niptables -I INPUT -p tcp --dport 80 -j ACCEPT iptables -I INPUT -p tcp --dport 443 -j ACCEPT 서버 포트 오픈","keywords":["web"],"articleBody":"동아리 서버용 디스코스 설치 명령어 모음 sudo apt update sudo apt upgrade -y 패키지 업그레이드\nsudo timedatectl set-timezone 'Asia/Seoul' 시간 변경\nsudo wget -qO- https://get.docker.com/ | sh 도커 설치\ndocker version 도커버전 확인\nsudo usermod -aG docker $USER 도커 권한 부여\nsudo service docker restart 도커 재시작\nsudo -s git clone https://github.com/discourse/discourse_docker.git /var/discourse cd /var/discourse 깃으로 다운로드\niptables -I INPUT -p tcp --dport 80 -j ACCEPT iptables -I INPUT -p tcp --dport 443 -j ACCEPT 서버 포트 오픈\nsudo netfilter-persistent save sudo netfilter-persistent reload 세팅 저장\n./discourse-setup 디스코스 설치 시작\nHostname for your Discourse? [discourse.example.com]: 홈페이지 주소 Email address for admin account(s)? [me@example.com,you@example.com]: 어드민 이메일(개인) SMTP server address? [smtp.example.com]: stmp 서버(난 메일건 썻다) SMTP port? [587]: 기본이 587 SMTP user name? [user@example.com]: 메일건 도메인세팅 가면 있다 SMTP password? [pa$$word]: 메일건 도메인세팅에서 리셋누르면 회색창으로 뜬다 카피 Let's Encrypt account email? (ENTER to skip) [me@example.com]: https 하는거 Optional Maxmind License key () [xxxxxxxxxxxxxxxx]:패스 ./launcher rebuild app 리빌드및 업데이트\nnano containers/app.yml 서버 정보 수정\n기다림의 시간\n계속 안되다가 드디어 됬는데\nvcn 설정 전부 날리고 고정 ip 주소를 oracle 로 받았다. 오라클 클라우드 오류가 생긴다면 vcn, subnet 설정을 날리고 다시 해보자.\n","wordCount":"187","inLanguage":"en","datePublished":"2022-01-15T22:35:38+09:00","dateModified":"2022-01-15T22:35:38+09:00","author":{"@type":"Person","name":"Kim"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.topasm.me/posts/discourse_setup/"},"publisher":{"@type":"Organization","name":"Topasm blog","logo":{"@type":"ImageObject","url":"https://blog.topasm.me/favicon.ico"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -120,45 +102,57 @@ Discourse_setup
 </h1>
 <div class=post-meta><span title="2022-01-15 22:35:38 +0900 +0900">January 15, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Kim
 </div>
-</header>
-<div class=post-content><p>동아리 서버용 디스코스 설치 명령어 모음</p>
-<p>sudo apt update
-sudo apt upgrade -y</p>
-<p>패키지 업그레이드</p>
-<p>sudo timedatectl set-timezone &lsquo;Asia/Seoul&rsquo;
-시간 변경</p>
-<p>sudo wget -qO- <a href=https://get.docker.com/>https://get.docker.com/</a> | sh</p>
-<p>도커 설치</p>
-<p>docker version</p>
-<p>도커버전 확인</p>
-<p>sudo usermod -aG docker $USER</p>
-<p>도커 권한 부여</p>
-<p>sudo service docker restart</p>
-<p>도커 재시작
-sudo -s
-git clone <a href=https://github.com/discourse/discourse_docker.git>https://github.com/discourse/discourse_docker.git</a> /var/discourse
-cd /var/discourse</p>
-<p>깃으로 다운로드</p>
-<p>iptables -I INPUT -p tcp &ndash;dport 80 -j ACCEPT
-iptables -I INPUT -p tcp &ndash;dport 443 -j ACCEPT</p>
-<p>서버 포트 오픈</p>
-<p>sudo netfilter-persistent save
-sudo netfilter-persistent reload</p>
-<p>세팅 저장</p>
-<p>./discourse-setup</p>
-<p>디스코스 설치 시작</p>
-<p>Hostname for your Discourse? [discourse.example.com]: 홈페이지 주소
+</header> <div class=toc>
+<details>
+<summary accesskey=c title="(Alt + C)">
+<span class=details>Table of Contents</span>
+</summary>
+<div class=inner><ul>
+<li>
+<a href=#%eb%8f%99%ec%95%84%eb%a6%ac-%ec%84%9c%eb%b2%84%ec%9a%a9-%eb%94%94%ec%8a%a4%ec%bd%94%ec%8a%a4-%ec%84%a4%ec%b9%98-%eb%aa%85%eb%a0%b9%ec%96%b4-%eb%aa%a8%ec%9d%8c aria-label="동아리 서버용 디스코스 설치 명령어 모음">동아리 서버용 디스코스 설치 명령어 모음</a>
+</li>
+</ul>
+</div>
+</details>
+</div>
+<div class=post-content><h3 id=동아리-서버용-디스코스-설치-명령어-모음>동아리 서버용 디스코스 설치 명령어 모음<a hidden class=anchor aria-hidden=true href=#동아리-서버용-디스코스-설치-명령어-모음>#</a></h3>
+<pre tabindex=0><code>sudo apt update
+sudo apt upgrade -y
+</code></pre><p>패키지 업그레이드</p>
+<pre tabindex=0><code>sudo timedatectl set-timezone 'Asia/Seoul'
+</code></pre><p>시간 변경</p>
+<pre tabindex=0><code>sudo wget -qO- https://get.docker.com/ | sh
+</code></pre><p>도커 설치</p>
+<pre tabindex=0><code>docker version
+</code></pre><p>도커버전 확인</p>
+<pre tabindex=0><code>sudo usermod -aG docker $USER
+</code></pre><p>도커 권한 부여</p>
+<pre tabindex=0><code>sudo service docker restart
+</code></pre><p>도커 재시작</p>
+<pre tabindex=0><code>sudo -s
+git clone https://github.com/discourse/discourse_docker.git /var/discourse
+cd /var/discourse
+</code></pre><p>깃으로 다운로드</p>
+<pre tabindex=0><code>iptables -I INPUT -p tcp --dport 80 -j ACCEPT
+iptables -I INPUT -p tcp --dport 443 -j ACCEPT
+</code></pre><p>서버 포트 오픈</p>
+<pre tabindex=0><code>sudo netfilter-persistent save
+sudo netfilter-persistent reload
+</code></pre><p>세팅 저장</p>
+<pre tabindex=0><code>./discourse-setup
+</code></pre><p>디스코스 설치 시작</p>
+<pre tabindex=0><code>Hostname for your Discourse? [discourse.example.com]: 홈페이지 주소
 Email address for admin account(s)? [me@example.com,you@example.com]: 어드민 이메일(개인)
 SMTP server address? [smtp.example.com]: stmp 서버(난 메일건 썻다)
 SMTP port? [587]: 기본이 587
 SMTP user name? [user@example.com]: 메일건 도메인세팅 가면 있다
 SMTP password? [pa$$word]: 메일건 도메인세팅에서 리셋누르면 회색창으로 뜬다 카피
-Let&rsquo;s Encrypt account email? (ENTER to skip) [me@example.com]: https 하는거
-Optional Maxmind License key () [xxxxxxxxxxxxxxxx]:패스</p>
-<p>./launcher rebuild app</p>
-<p>리빌드및 업데이트</p>
-<p>nano containers/app.yml</p>
-<p>서버 정보 수정</p>
+Let's Encrypt account email? (ENTER to skip) [me@example.com]: https 하는거
+Optional Maxmind License key () [xxxxxxxxxxxxxxxx]:패스
+</code></pre><pre tabindex=0><code>./launcher rebuild app
+</code></pre><p>리빌드및 업데이트</p>
+<pre tabindex=0><code>nano containers/app.yml
+</code></pre><p>서버 정보 수정</p>
 <p>기다림의 시간</p>
 <p>계속 안되다가 드디어 됬는데</p>
 <p>vcn 설정 전부 날리고 고정 ip 주소를 oracle 로 받았다. 오라클 클라우드 오류가 생긴다면 vcn, subnet 설정을 날리고 다시 해보자.</p>
