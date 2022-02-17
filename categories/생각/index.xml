@@ -5,7 +5,18 @@
     <link>https://blog.topasm.me/categories/%EC%83%9D%EA%B0%81/</link>
     <description>Recent content in 생각 on Topasm blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 07 Sep 2021 08:32:22 +0900</lastBuildDate><atom:link href="https://blog.topasm.me/categories/%EC%83%9D%EA%B0%81/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Jan 2022 12:29:02 +0900</lastBuildDate><atom:link href="https://blog.topasm.me/categories/%EC%83%9D%EA%B0%81/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>현대 산업구조에 대한 생각</title>
+      <link>https://blog.topasm.me/posts/changing_company/</link>
+      <pubDate>Sat, 22 Jan 2022 12:29:02 +0900</pubDate>
+      
+      <guid>https://blog.topasm.me/posts/changing_company/</guid>
+      <description>요즘 드는생각
+테슬라나 애플을 보면 sw 부터 hw 까지 전부 개발하고 있다. 이걸 왜 이게 가능해졌나 보면 점점 ai 의 발전, 오픈 소스의 영향으로 인해 한 개발자의 영향력이 전보다 훨씬 강력해졌다. 빠르게 변화하는 흐름에 빠르게 대처하기 위해 한 회사에서 전부다 처리하는게 가장 변화에 빠르게 대처하고 좋다고 생각한다. 이렇게 되면 소수의 실력자가 개발을 진행하는 방식으로 가게 된다. 이러면 사람을 어떻게 잘모으냐에 대한 문제로 이어진다.
+사람을 잘 모으는 문제는 이미지 메이킹에 있다고 생각한다.</description>
+    </item>
+    
     <item>
       <title>topasm 이름의 유래</title>
       <link>https://blog.topasm.me/posts/origin_of_topasm/</link>

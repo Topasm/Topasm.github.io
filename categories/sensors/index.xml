@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>sensors on Topasm blog</title>
+    <link>https://blog.topasm.me/categories/sensors/</link>
+    <description>Recent content in sensors on Topasm blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 28 Dec 2021 20:45:00 +0900</lastBuildDate><atom:link href="https://blog.topasm.me/categories/sensors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>로봇에서의 라이더와 카메라 사용</title>
+      <link>https://blog.topasm.me/posts/lidar_and_camera/</link>
+      <pubDate>Tue, 28 Dec 2021 20:45:00 +0900</pubDate>
+      
+      <guid>https://blog.topasm.me/posts/lidar_and_camera/</guid>
+      <description>로봇 자율주행의 가장 큰 쟁점중 하나는 센서를 카메라로 사용하느냐 라이더를 사용하느냐 인거 같다.
+사실 나는 자율주행이 카메라나 라이더로 구현될거라고 생각하지 않는다. 인공지능으로 만들어지는 자율주행의 경우 사람이 만들어내는 변수에 빠르게 대응하지 못할거라고 생각하고, 결국에는 확률의 문제라 자율주행은 이론상 100퍼센트가 아니면 실현하기가 어렵다고 생각한다. 99.9퍼라도 1억명이 쓴다면 확률이 낮다고 해도 시스템상 문제는 있는거니까. 그리고 자율주행을 인공지능으로 구현한다고 해도, 이에 따라 교통 문화도 달라질 텐데 이걸 실시간으로 학습한다는건 불가능 하다고 본다. (지금도 기본적인 자율주행을 위해 거의 1만 km 정도의 데이터를 학습시킨다.</description>
+    </item>
+    
+  </channel>
+</rss>

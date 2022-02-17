@@ -18,7 +18,7 @@
 <link rel=mask-icon href=https://blog.topasm.me/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.92.1">
+<meta name=generator content="Hugo 0.92.2">
 <link rel=alternate type=application/rss+xml href=https://blog.topasm.me/categories/discourse/index.xml>
 <noscript>
 <style>#theme-toggle,.top-link{display:none}</style>
@@ -74,21 +74,17 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Discourse_setup
+<h2>동아리 홈페이지용 Discourse 설치기
 </h2>
 </header>
 <section class=entry-content>
-<p>동아리 서버용 디스코스 설치 명령어 모음 sudo apt update sudo apt upgrade -y 패키지 업그레이드
-sudo timedatectl set-timezone 'Asia/Seoul' 시간 변경
-sudo wget -qO- https://get.docker.com/ | sh 도커 설치
-docker version 도커버전 확인
-sudo usermod -aG docker $USER 도커 권한 부여
-sudo service docker restart 도커 재시작
-sudo -s git clone https://github.com/discourse/discourse_docker.git /var/discourse cd /var/discourse 깃으로 다운로드
-iptables -I INPUT -p tcp --dport 80 -j ACCEPT iptables -I INPUT -p tcp --dport 443 -j ACCEPT 서버 포트 오픈...</p>
+<p>동아리 홈페이지로 여러 국산 php 오픈소스를 사용하다가 최종적으로 discourse 로 넘어왔다.
+국산 서비스의 장점
+한글 지원 잘됨 가벼움, 용량 작음, 싸게 운영가능(램 500mb 부터는 쓸 수 있음) php 라 실시간으로 서버 수정이 가능함 익숙한 게시판 구조 국산 서비스의 단점
+오래된 코드, 구조로 커스텀이 쉽지 않음 웹표준에 덜 적합 마크다운 지원 안함 유튜브 임베딩이 번거로움 국산 서비스 쓸만 하긴 하다 하지만 개인적으로 업데이트가 많이 됨에도 묘하게 현대적인 부분과 구형인 부분이 공존하게 된다....</p>
 </section>
-<footer class=entry-footer><span title="2022-01-15 22:35:38 +0900 +0900">January 15, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Kim</footer>
-<a class=entry-link aria-label="post link to Discourse_setup" href=https://blog.topasm.me/posts/discourse_setup/></a>
+<footer class=entry-footer><span title="2022-01-15 22:35:38 +0900 +0900">January 15, 2022</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Kim</footer>
+<a class=entry-link aria-label="post link to 동아리 홈페이지용 Discourse 설치기" href=https://blog.topasm.me/posts/discourse_setup/></a>
 </article>
 </main>
 <footer class=footer>

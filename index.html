@@ -17,7 +17,7 @@
 <link rel=mask-icon href=https://blog.topasm.me/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.92.1">
+<meta name=generator content="Hugo 0.92.2">
 <link rel=alternate type=application/rss+xml href=https://blog.topasm.me/index.xml>
 <link rel=alternate type=application/json href=https://blog.topasm.me/index.json>
 <noscript>
@@ -86,21 +86,42 @@
 </article>
 <article class=post-entry>
 <header class=entry-header>
-<h2>Discourse_setup
+<h2>현대 산업구조에 대한 생각
 </h2>
 </header>
 <section class=entry-content>
-<p>동아리 서버용 디스코스 설치 명령어 모음 sudo apt update sudo apt upgrade -y 패키지 업그레이드
-sudo timedatectl set-timezone 'Asia/Seoul' 시간 변경
-sudo wget -qO- https://get.docker.com/ | sh 도커 설치
-docker version 도커버전 확인
-sudo usermod -aG docker $USER 도커 권한 부여
-sudo service docker restart 도커 재시작
-sudo -s git clone https://github.com/discourse/discourse_docker.git /var/discourse cd /var/discourse 깃으로 다운로드
-iptables -I INPUT -p tcp --dport 80 -j ACCEPT iptables -I INPUT -p tcp --dport 443 -j ACCEPT 서버 포트 오픈...</p>
+<p>요즘 드는생각
+테슬라나 애플을 보면 sw 부터 hw 까지 전부 개발하고 있다. 이걸 왜 이게 가능해졌나 보면 점점 ai 의 발전, 오픈 소스의 영향으로 인해 한 개발자의 영향력이 전보다 훨씬 강력해졌다. 빠르게 변화하는 흐름에 빠르게 대처하기 위해 한 회사에서 전부다 처리하는게 가장 변화에 빠르게 대처하고 좋다고 생각한다. 이렇게 되면 소수의 실력자가 개발을 진행하는 방식으로 가게 된다. 이러면 사람을 어떻게 잘모으냐에 대한 문제로 이어진다.
+사람을 잘 모으는 문제는 이미지 메이킹에 있다고 생각한다....</p>
 </section>
-<footer class=entry-footer><span title="2022-01-15 22:35:38 +0900 +0900">January 15, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Kim</footer>
-<a class=entry-link aria-label="post link to Discourse_setup" href=https://blog.topasm.me/posts/discourse_setup/></a>
+<footer class=entry-footer><span title="2022-01-22 12:29:02 +0900 +0900">January 22, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kim</footer>
+<a class=entry-link aria-label="post link to 현대 산업구조에 대한 생각" href=https://blog.topasm.me/posts/changing_company/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>동아리 홈페이지용 Discourse 설치기
+</h2>
+</header>
+<section class=entry-content>
+<p>동아리 홈페이지로 여러 국산 php 오픈소스를 사용하다가 최종적으로 discourse 로 넘어왔다.
+국산 서비스의 장점
+한글 지원 잘됨 가벼움, 용량 작음, 싸게 운영가능(램 500mb 부터는 쓸 수 있음) php 라 실시간으로 서버 수정이 가능함 익숙한 게시판 구조 국산 서비스의 단점
+오래된 코드, 구조로 커스텀이 쉽지 않음 웹표준에 덜 적합 마크다운 지원 안함 유튜브 임베딩이 번거로움 국산 서비스 쓸만 하긴 하다 하지만 개인적으로 업데이트가 많이 됨에도 묘하게 현대적인 부분과 구형인 부분이 공존하게 된다....</p>
+</section>
+<footer class=entry-footer><span title="2022-01-15 22:35:38 +0900 +0900">January 15, 2022</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Kim</footer>
+<a class=entry-link aria-label="post link to 동아리 홈페이지용 Discourse 설치기" href=https://blog.topasm.me/posts/discourse_setup/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>로봇에서의 라이더와 카메라 사용
+</h2>
+</header>
+<section class=entry-content>
+<p>로봇 자율주행의 가장 큰 쟁점중 하나는 센서를 카메라로 사용하느냐 라이더를 사용하느냐 인거 같다.
+사실 나는 자율주행이 카메라나 라이더로 구현될거라고 생각하지 않는다. 인공지능으로 만들어지는 자율주행의 경우 사람이 만들어내는 변수에 빠르게 대응하지 못할거라고 생각하고, 결국에는 확률의 문제라 자율주행은 이론상 100퍼센트가 아니면 실현하기가 어렵다고 생각한다. 99.9퍼라도 1억명이 쓴다면 확률이 낮다고 해도 시스템상 문제는 있는거니까. 그리고 자율주행을 인공지능으로 구현한다고 해도, 이에 따라 교통 문화도 달라질 텐데 이걸 실시간으로 학습한다는건 불가능 하다고 본다. (지금도 기본적인 자율주행을 위해 거의 1만 km 정도의 데이터를 학습시킨다....</p>
+</section>
+<footer class=entry-footer><span title="2021-12-28 20:45:00 +0900 +0900">December 28, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kim</footer>
+<a class=entry-link aria-label="post link to 로봇에서의 라이더와 카메라 사용" href=https://blog.topasm.me/posts/lidar_and_camera/></a>
 </article>
 <article class=post-entry>
 <header class=entry-header>
@@ -126,33 +147,6 @@ github action 사용하기 personal access token 발급받기 github 접속 > de
 </section>
 <footer class=entry-footer><span title="2021-09-06 10:54:16 +0900 +0900">September 6, 2021</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Kim</footer>
 <a class=entry-link aria-label="post link to Hugo 와 github action 을 이용해 블로그 만들기 - 3완" href=https://blog.topasm.me/posts/making_blog3/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Hugo 와 github action 을 이용해 블로그 만들기 - 2
-</h2>
-</header>
-<section class=entry-content>
-<p>이어서 VS 코드를 켰다면
-. ├── config.toml ├── content/ │ └── posts/ ├── static/ └── themes/ └── PaperMod/ 이러한 폴더구조로 되어있다.
-config 수정 이제 config.toml 을 수정해야 한다. Vscode 에서 config.toml파일을 클릭해 수정해보자. 내가 사용하는 papermod 의 예시는 아래와 같다.
-baseURL = "https://examplesite.com/" title = "ExampleSite" paginate = 5 theme = "PaperMod" enableRobotsTXT = true buildDrafts = false buildFuture = false buildExpired = false googleAnalytics = "UA-123-45" [minify] disableXML = true minifyOutput = true [params] env = "production" title = "ExampleSite" description = "ExampleSite description" keywords = [ "Blog", "Portfolio", "PaperMod" ] author = "Me" images = [ "&lt;link or path of image for opengraph, twitter-cards>" ] DateFormat = "January 2, 2006" defaultTheme = "auto" disableThemeToggle = false ShowReadingTime = true ShowShareButtons = true ShowPostNavLinks = true ShowBreadCrumbs = true ShowCodeCopyButtons = false disableSpecial1stPost = false disableScrollToTop = false comments = false hidemeta = false hideSummary = false showtoc = false tocopen = false [params....</p>
-</section>
-<footer class=entry-footer><span title="2021-08-25 20:51:28 +0900 +0900">August 25, 2021</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Kim</footer>
-<a class=entry-link aria-label="post link to Hugo 와 github action 을 이용해 블로그 만들기 - 2" href=https://blog.topasm.me/posts/making_blog2/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Hugo 와 github action 을 이용해 블로그 만들기 - 1
-</h2>
-</header>
-<section class=entry-content>
-<p>윈도우 환경에서 내가 블로그 개발을 한 방법을 소개 한다.
-레포지토리를 1개만 생성하고 github actions 를 이용해 커밋만 하면 자동으로 웹페이지로 배포 되도록 만들었다. 그리고 go 로 짜여진 hugo 를 이용하였다. 이유는 업데이트가 빠르고 빌드속도가 빠르기 때문이다.
-준비물 깃헙 계정 GitHub 윈도우 터미널 설치 Windows Terminal installation | Microsoft Docs 깃 설치 Git - Downloads (git-scm.com) vscode 설치 Visual Studio Code - Code Editing. Redefined go 언어 설치 The Go Programming Language (golang....</p>
-</section>
-<footer class=entry-footer><span title="2021-08-25 14:26:08 +0900 +0900">August 25, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kim</footer>
-<a class=entry-link aria-label="post link to Hugo 와 github action 을 이용해 블로그 만들기 - 1" href=https://blog.topasm.me/posts/making_blog/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

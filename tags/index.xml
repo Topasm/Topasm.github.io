@@ -5,7 +5,16 @@
     <link>https://blog.topasm.me/tags/</link>
     <description>Recent content in Tags on Topasm blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 15 Jan 2022 22:35:38 +0900</lastBuildDate><atom:link href="https://blog.topasm.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Jan 2022 12:29:02 +0900</lastBuildDate><atom:link href="https://blog.topasm.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>생각</title>
+      <link>https://blog.topasm.me/tags/%EC%83%9D%EA%B0%81/</link>
+      <pubDate>Sat, 22 Jan 2022 12:29:02 +0900</pubDate>
+      
+      <guid>https://blog.topasm.me/tags/%EC%83%9D%EA%B0%81/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>web</title>
       <link>https://blog.topasm.me/tags/web/</link>
@@ -16,11 +25,11 @@
     </item>
     
     <item>
-      <title>생각</title>
-      <link>https://blog.topasm.me/tags/%EC%83%9D%EA%B0%81/</link>
-      <pubDate>Tue, 07 Sep 2021 08:32:22 +0900</pubDate>
+      <title>sensors</title>
+      <link>https://blog.topasm.me/tags/sensors/</link>
+      <pubDate>Tue, 28 Dec 2021 20:45:00 +0900</pubDate>
       
-      <guid>https://blog.topasm.me/tags/%EC%83%9D%EA%B0%81/</guid>
+      <guid>https://blog.topasm.me/tags/sensors/</guid>
       <description></description>
     </item>
     
